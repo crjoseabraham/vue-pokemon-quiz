@@ -89,6 +89,7 @@ select {
   margin-left: 1rem;
   border: none;
   width: 15rem;
+  height: 40px;
   background: $topbar-select;
   color: #fff;
   @include text-shadow($text);

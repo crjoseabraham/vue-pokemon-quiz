@@ -7,15 +7,15 @@ ul {
     list-style: none;
 
     li {
-      background: red;
       flex-basis: 50%;
       position: relative;
       padding: 0;
       padding-left: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
 
       @include breakpoint(min-width, 'tablet') {
         padding-left: 2rem;
+        margin-bottom: 0.75rem;
       }
 
       input {
@@ -80,6 +80,10 @@ ul {
       width: 100%;
       padding: 0 1rem;
       flex-grow: 2;
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
 
       span {
         font-size: 1.8rem;
@@ -97,6 +101,7 @@ ul {
           border-radius: 0.3rem;
           font-size: 1.4rem;
           padding: 0.3rem 0.7rem;
+          min-height: 25px;
         }
       }
     }

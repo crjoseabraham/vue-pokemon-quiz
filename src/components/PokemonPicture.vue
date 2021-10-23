@@ -61,7 +61,7 @@ export default {
   }
 
   div:first-child {
-    height: 15%;
+    min-height: 35px;
     display: flex;
     justify-content: space-between;
 

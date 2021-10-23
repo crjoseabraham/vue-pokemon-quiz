@@ -66,6 +66,14 @@ export default {
 <style lang="scss" scoped>
 @import '~@/assets/sass/components/_titles_and_text.scss';
 
+h3 {
+  margin-bottom: 3rem;
+
+  @include breakpoint(min-width, 'tablet') {
+    margin-bottom: 1rem;
+  }
+}
+
 .quiz-container {
   background: $ui-info-data;
   border-radius: 0.8rem;
@@ -77,6 +85,7 @@ export default {
   p {
     font-size: 1.5rem;
     padding-top: 0.35rem;
+    margin-bottom: 1rem;
 
     @include breakpoint(min-width, 'tablet') {
       font-size: 2rem;
